@@ -1,16 +1,31 @@
-# Djangular 3
+# Recrutamento back-end do QMágico
 
-[Setup instructions in english!](https://youtu.be/okWBei-rK_A)
+Olá amigo back-end. Bem vindo ao processo de recrutamento do QMágico.
+Este projeto é um esqueleto de aplicação web, construído usando Django e AngularJS.
+Se vc [se cadastrou no nosso site](CADE_O_LINK_DO_PROCESSO_SELETIVO), em breve vamos te mandar uma missão: construir uma aplicação web baseada neste projeto.
+No email, que vc vai receber, haverá mais detalhes dos requisitos, e qual o prazo que a gente espera que vc entregue alguma coisa.
+Mas vc pode - e deve - já ir se adiantando e estudando a estrutura deste projeto. Nos links abaixo você vai encontrar alguns vídeos que vão te ajudar nessa caminhada.
 
-Django + AngularJS, pronto pra usar. 
-* [Video com overview do setup](http://youtu.be/RvgZkrofgcU)
-* [Explicações mais detalhadas sobre o que acontece no front](https://dicasdolampada.wordpress.com/2015/06/25/a-awesome-setup-for-your-angularjs-project-13/)
-* [Roteiro do Hangout](https://github.com/tonylampada/djangular3/blob/master/roteiro.md)
-* [Gravação do Hangout](https://www.youtube.com/watch?v=XarTMSK2Fq8)
+Observações importantes:
+* Durante a execução da missão, **não faça fork** deste projeto. Projetos no Github são públicos e não queremos que os trabalhos dos candidatos influenciem uns aos outros.
+* Conhecimento prévio de AngularJS vai ajudar muito, **mas não é obrigatório** pra completar a missão.
+* Algum conhecimento prévio de Python **será necessário** pra completar a missão.
+* A estrutura deste projeto é bastante semelhante aos projetos "de verdade" que temos aqui.
+* Mesmo que vc não seja aprovado pra trabalhar com a gente na sua primeira tentativa, temos certeza que o aprendizado deste processo vai valer a pena o esforço!
+* E se você não quiser participar do nosso processo mas quiser usar este projeto como base pros seus próprios projetos, vai em frente! Modéstia parte, o projeto tá bem feitinho e deverá te ajudar bastante! :-)
+* A qualquer momento, se vc tiver problemas ou dúvidas, crie uma issue aqui no repo. Vamos tentar responder sempre que possível.
+
+
+Videos e artigos que vão te ajudar:
+
+* [Overview do setup](http://youtu.be/RvgZkrofgcU)
+* [Arquitetura do projeto](https://www.youtube.com/watch?v=XarTMSK2Fq8)
 
 # Setup do sistema operacional
 
-Vc vai precisar instalar algumas coisas no seu sistema operacoinal pra que tudo funcione direitinho. É bem possível que algumas dessas coisas vc já tenha instalado. Só precisa fazer isso uma vez na vida.
+As instruções abaixo são pra linux (ubuntu/debian). Se vc usa outro sistema operacional, a gente recomenda que vc crie uma VM usando Virtualbox ou algo parecido. Ou então fica à vontade pra mandar o pull request com o `setup_win.md` ou `setup_mac.md` ;-)
+
+Vc vai precisar instalar algumas coisas no seu sistema operacional pra que tudo funcione direitinho. É bem possível que algumas dessas coisas vc já tenha instalado. Só precisa fazer isso uma vez na vida.
 
 * 1) Instala esse monte coisa aí com o apt-get (node, npm, o postgres e umas bibliotecas aih)
 

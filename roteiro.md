@@ -28,4 +28,3 @@
 1. Links úteis / saiba mais
  * [Video com overview do setup](http://youtu.be/RvgZkrofgcU)
  * [Explicações mais detalhadas sobre o que acontece no front](https://dicasdolampada.wordpress.com/2015/06/25/a-awesome-setup-for-your-angularjs-project-13/)
- * [Curso ng-masters](http://ng-masters.com)
