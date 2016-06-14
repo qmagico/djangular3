@@ -25,7 +25,7 @@ Videos e artigos que vão te ajudar:
 * [Overview do setup](http://youtu.be/RvgZkrofgcU)
 * [Arquitetura do projeto](https://www.youtube.com/watch?v=XarTMSK2Fq8)
 * [Treinamento de AngularJS do QMágico](https://www.youtube.com/watch?v=-gL0Hbk74i4&list=PLgMNBa0XaIgcD9IGiqvAQxPrUEyW_i87I)
-* [Se não quiser usar AngularJS](/qmagico/djangular3/blob/master/sem_angular.md)
+* [Se não quiser usar AngularJS](/sem_angular.md)
 
 # Setup do sistema operacional
 
