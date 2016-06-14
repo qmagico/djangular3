@@ -2,10 +2,12 @@
 
 Olá amigo back-end. Bem vindo ao processo de recrutamento do QMágico.
 
-Este projeto é um esqueleto de aplicação web, construído usando Django e AngularJS.
+Se você ainda não se cadastrou no nosso site, faça isso para iniciar o seu processo seletivo:
 
-Se você [se cadastrou no nosso site](http://www.qmagico.com.br/contato/entre_para_o_time), em breve vamos te mandar uma missão: construir uma aplicação web, preferencialmente baseada neste projeto.
-No email, que você vai receber, haverá mais detalhes dos requisitos, e qual o prazo que esperamos que você entregue alguma coisa.
+http://www.qmagico.com.br/contato/entre_para_o_time
+
+Este projeto é um esqueleto de aplicação web, construído usando Django e AngularJS.
+No email que você vai receber, haverá mais detalhes dos requisitos, e qual o prazo que esperamos que você entregue alguma coisa.
 
 Mas você pode - e deve - já ir se adiantando e estudando a estrutura deste projeto. Nos links abaixo você vai encontrar alguns vídeos e artigos que vão te ajudar nessa caminhada.
 
