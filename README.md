@@ -4,31 +4,34 @@ Olá amigo back-end. Bem vindo ao processo de recrutamento do QMágico.
 
 Este projeto é um esqueleto de aplicação web, construído usando Django e AngularJS.
 
-Se vc [se cadastrou no nosso site](CADE_O_LINK_DO_PROCESSO_SELETIVO), em breve vamos te mandar uma missão: construir uma aplicação web baseada neste projeto.
-No email, que vc vai receber, haverá mais detalhes dos requisitos, e qual o prazo que a gente espera que vc entregue alguma coisa.
+Se você [se cadastrou no nosso site](http://www.qmagico.com.br/contato/entre_para_o_time), em breve vamos te mandar uma missão: construir uma aplicação web, preferencialmente baseada neste projeto.
+No email, que você vai receber, haverá mais detalhes dos requisitos, e qual o prazo que esperamos que você entregue alguma coisa.
 
-Mas vc pode - e deve - já ir se adiantando e estudando a estrutura deste projeto. Nos links abaixo você vai encontrar alguns vídeos e artigos que vão te ajudar nessa caminhada.
+Mas você pode - e deve - já ir se adiantando e estudando a estrutura deste projeto. Nos links abaixo você vai encontrar alguns vídeos e artigos que vão te ajudar nessa caminhada.
 
 Observações importantes:
 
 * Durante a execução da missão, **não faça fork** deste projeto. Projetos no Github são públicos e não queremos que os trabalhos dos candidatos influenciem uns aos outros.
+* Se vc não tem nenhuma familiaridade com Python, pode escolher outra plataforma e começar a missão "do zero".
 * Conhecimento prévio de AngularJS vai ajudar muito, **mas não é obrigatório** pra completar a missão.
+* Seja qual for a tecnologia usada, sua aplicação deve ter trocas de mensagens baseadas em AJAX trafegando JSON.
 * A estrutura deste projeto é bastante semelhante aos projetos "de verdade" que temos aqui.
-* Mesmo que vc não seja aprovado pra trabalhar com a gente na sua primeira tentativa, temos certeza que o aprendizado deste processo vai valer a pena o esforço!
+* Mesmo que você não seja aprovado pra trabalhar com a gente na sua primeira tentativa, temos certeza que o aprendizado deste processo vai valer a pena!
 * E se você não quiser participar do nosso processo mas quiser usar este projeto como base pros seus próprios projetos, vai em frente! Modéstia parte, o projeto tá bem feitinho e deverá te ajudar bastante! :-)
-* A qualquer momento, se vc tiver problemas ou dúvidas, crie uma issue aqui no repo. Vamos tentar responder sempre que possível.
+* A qualquer momento, se você tiver problemas ou dúvidas, crie uma issue aqui no repositório. Vamos tentar responder sempre que possível.
 
 Videos e artigos que vão te ajudar:
 
 * [Overview do setup](http://youtu.be/RvgZkrofgcU)
 * [Arquitetura do projeto](https://www.youtube.com/watch?v=XarTMSK2Fq8)
-* [Se não quiser usar AngularJS](TODO)
+* [Treinamento de AngularJS do QMágico](https://www.youtube.com/watch?v=-gL0Hbk74i4&list=PLgMNBa0XaIgcD9IGiqvAQxPrUEyW_i87I)
+* [Se não quiser usar AngularJS](/qmagico/djangular3/blob/master/sem_angular.md)
 
 # Setup do sistema operacional
 
-As instruções abaixo são pra linux (ubuntu/debian). Se vc usa outro sistema operacional, a gente recomenda que vc crie uma VM usando Virtualbox ou algo parecido. Ou então fica à vontade pra mandar o pull request com o `setup_win.md` ou `setup_mac.md` ;-)
+As instruções abaixo são pra linux (ubuntu/debian). Se você usa outro sistema operacional, a gente recomenda que você crie uma VM usando Virtualbox ou algo parecido. Ou então fica à vontade pra mandar o pull request com o `setup_win.md` ou `setup_mac.md` ;-)
 
-Vc vai precisar instalar algumas coisas no seu sistema operacional pra que tudo funcione direitinho. É bem possível que algumas dessas coisas vc já tenha instalado. Só precisa fazer isso uma vez na vida.
+Você vai precisar instalar algumas coisas no seu sistema operacional pra que tudo funcione direitinho. É bem possível que algumas dessas coisas você já tenha instalado. Só precisa fazer isso uma vez na vida.
 
 * 1) Instala esse monte coisa aí com o apt-get (node, npm, o postgres e umas bibliotecas aih)
 
@@ -42,13 +45,13 @@ sudo apt-get install python3-dev nodejs npm postgresql-9.3 postgresql-server-dev
 sudo npm install -g gulp
 ```
 
-* 3) Certifique-se que vc tem o python3 (meu ubuntu já veio com o python 2 e o 3, sendo que o 2 é o default)
+* 3) Certifique-se que você tem o python3 (meu ubuntu já veio com o python 2 e o 3, sendo que o 2 é o default)
 
 * 4) Instale o virtualenvwrapper, [de acordo com as instruções que tem no site](http://virtualenvwrapper.readthedocs.org/en/latest/install.html)
 
 # Setup do projeto
 
-Agora vc precisa fazer o setup do projeto. Isso significa que se vc tivesse outro projeto desse, ia ter que fazer essas coisas de novo.
+Agora você precisa fazer o setup do projeto. Isso significa que se você tivesse outro projeto desse, ia ter que fazer essas coisas de novo.
 
 * 1) Cria o banco de dados e o usuario no postgres
 
@@ -58,7 +61,7 @@ createuser -d -SRP djangular3  # poe a senha djangular3
 createdb -O djangular3 djangular3
 exit  # Volta pro seu usuario
 
-# Se vc quiser mudar o nome do banco/usuario/senha,
+# Se você quiser mudar o nome do banco/usuario/senha,
 # tem que mexer no arquivo djangular3/settings.py
 ```
 
