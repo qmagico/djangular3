@@ -1,25 +1,28 @@
 # Recrutamento back-end do QMágico
 
 Olá amigo back-end. Bem vindo ao processo de recrutamento do QMágico.
+
 Este projeto é um esqueleto de aplicação web, construído usando Django e AngularJS.
+
 Se vc [se cadastrou no nosso site](CADE_O_LINK_DO_PROCESSO_SELETIVO), em breve vamos te mandar uma missão: construir uma aplicação web baseada neste projeto.
 No email, que vc vai receber, haverá mais detalhes dos requisitos, e qual o prazo que a gente espera que vc entregue alguma coisa.
-Mas vc pode - e deve - já ir se adiantando e estudando a estrutura deste projeto. Nos links abaixo você vai encontrar alguns vídeos que vão te ajudar nessa caminhada.
+
+Mas vc pode - e deve - já ir se adiantando e estudando a estrutura deste projeto. Nos links abaixo você vai encontrar alguns vídeos e artigos que vão te ajudar nessa caminhada.
 
 Observações importantes:
+
 * Durante a execução da missão, **não faça fork** deste projeto. Projetos no Github são públicos e não queremos que os trabalhos dos candidatos influenciem uns aos outros.
 * Conhecimento prévio de AngularJS vai ajudar muito, **mas não é obrigatório** pra completar a missão.
-* Algum conhecimento prévio de Python **será necessário** pra completar a missão.
 * A estrutura deste projeto é bastante semelhante aos projetos "de verdade" que temos aqui.
 * Mesmo que vc não seja aprovado pra trabalhar com a gente na sua primeira tentativa, temos certeza que o aprendizado deste processo vai valer a pena o esforço!
 * E se você não quiser participar do nosso processo mas quiser usar este projeto como base pros seus próprios projetos, vai em frente! Modéstia parte, o projeto tá bem feitinho e deverá te ajudar bastante! :-)
 * A qualquer momento, se vc tiver problemas ou dúvidas, crie uma issue aqui no repo. Vamos tentar responder sempre que possível.
 
-
 Videos e artigos que vão te ajudar:
 
 * [Overview do setup](http://youtu.be/RvgZkrofgcU)
 * [Arquitetura do projeto](https://www.youtube.com/watch?v=XarTMSK2Fq8)
+* [Se não quiser usar AngularJS](TODO)
 
 # Setup do sistema operacional
 
@@ -92,7 +95,7 @@ npm install
 
 ```shell
 cd ..
-. dev.sh  # Nao esquece desse pontinho ae
+source dev.sh
 devhelp  # Esses comandos agora devem estar todos funcionando
 #  Esse help aih eh a melhor parte. Ele vai te ajudar daqui pra frente.
 #  Cuida dele pro seu projeto ficar sempre com os comandinhos atualizados!!
