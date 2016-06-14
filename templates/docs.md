@@ -6,6 +6,7 @@ Este desafio deve ser feito por você em sua casa. Dentro do prazo oferecido a v
 ## Instruções de entrega do desafio
 1. Faça um clone deste repositório em seu local para servir de base para o seu projeto. (Evite forkar o projeto para não tornar suas alterações públicas para os outros candidatos).
   * Essa base em Django+AngularJS é opcional, caso você não esteja familiarizado com a linguagem, você tem liberdade de começar um projeto do zero utilizando qualquer outro stack. 
+  * Caso opte por não usar este stack e começar um projeto do zero, adicionalmente ao seu patch, anexe um vídeo como comprovante de que você foi capaz de configurar e rodar localmente este projeto (djangular3)
 1. Em seguida, implemente o projeto tal qual descrito abaixo.
 1. Por fim, envie via email um arquivo patch para rh@qmagico.com.br com o assunto: 'Desafio QMágico Backend - Seu Nome'
 
